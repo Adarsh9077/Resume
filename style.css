@@ -13,19 +13,17 @@
 
 html {
     font-size: 10px;
-
 }
 
 body {
     font-family: Inter, sans-sarif;
     background-color: black;
     color: white;
-
 }
 
 /* comman style */
 img {
-    width: 100%;
+    width: 80%;
 }
 
 a {
@@ -51,7 +49,7 @@ a {
     font-size: 1.4rem;
     color: var(--primary-color);
     font-weight: 300;
-
+    padding-top: 1.9rem;
 }
 
 .item_title {
@@ -77,7 +75,6 @@ a {
     background: #070707;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-
 }
 
 @media only screen and (max-width:768px) {
@@ -86,7 +83,6 @@ a {
         grid-template-columns: 1fr;
         padding: 3rem;
         gap: 7rem;
-
     }
 }
 
@@ -116,11 +112,12 @@ a {
     flex: 1;
 }
 
-@media only screen and (max-width:768px){
-    .profile{
+@media only screen and (max-width:768px) {
+    .profile {
         margin-bottom: 0;
     }
-    .group3{
+
+    .group3 {
         flex-direction: column;
     }
 }
@@ -129,7 +126,6 @@ a {
 .profile_container {
     display: flex;
     gap: 2rem;
-
 }
 
 profile_profileImg {
@@ -143,7 +139,6 @@ profile_profileImg {
     text-transform: uppercase;
     display: block;
     margin-bottom: -0.8rem;
-
 }
 
 .profile_name_lastName {
@@ -175,9 +170,7 @@ profile_profileImg {
 @media only screen and (max-width: 768px) {
     .profile_container {
         flex-direction: column;
-
     }
-
 }
 
 /* Skills */
@@ -226,7 +219,6 @@ profile_profileImg {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-
 }
 
 .interest_item {
@@ -276,11 +268,9 @@ hr {
     border: none;
     border-top: 2px solid rgba(128, 128, 128, 0.229);
 }
-@media only screen and (max-width:768px){
-    hr{
-        margin: 0 auto;
 
+@media only screen and (max-width:768px) {
+    hr {
+        margin: 0 auto;
     }
 }
-
-/* 48:50 */
