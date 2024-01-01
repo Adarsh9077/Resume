@@ -125,11 +125,18 @@ a {
 /* profile */
 .profile_container {
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
 }
 
-profile_profileImg {
+.profile_profileImg {
     max-width: 250px;
+}
+
+.profileImg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .profile_name_firstName {
@@ -158,8 +165,9 @@ profile_profileImg {
 .downloadBtn {
     display: block;
     text-decoration: underline;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     margin-top: 1rem;
+    text-decoration: none;
 }
 
 .downloadBtn:hover {
